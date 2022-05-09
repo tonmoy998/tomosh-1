@@ -1,0 +1,10 @@
+// Setting up colors
+$orange:    #ff5304 !default;
+$red:    #f0270d !default;
+$yellow:  #ffc107 !default;
+
+// Customizing Colors
+$primary:$orange;
+$secondary:$red;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

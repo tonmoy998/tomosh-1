@@ -1,0 +1,60 @@
+@use "../custom" as *;
+.contact{
+    z-index: -5;
+    height:45rem;
+    padding: 3rem 0;
+    background-color: rgb(241, 235, 235);
+    .container{
+        position: relative;
+        .form-container{
+            background-color: #fff;
+            margin: -7rem 0;
+            padding-top: 5rem;
+            padding-bottom:2rem;
+            border-radius: 2rem;
+            z-index: 10;
+        }
+        .btn-primary{
+            display: flex;
+            margin: 1rem auto;
+            padding:0.625rem 3rem;
+            color: white;
+            font-size: 1.5rem;
+            font-weight:700;
+            position: relative;
+            .fa-paper-plane{
+                font-size: 1.5rem;
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 80%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .contact-img{
+            display: flex;
+            margin: 2rem auto;
+            background-color: #fff;
+            width: 10rem;
+            height: 10rem;
+            border-radius: 10rem;
+            position: relative;
+            .--msg{
+                color: $primary;
+                font-size: 5rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .form-1{
+            width: 80%;
+            display: flex;
+            margin: 1rem auto;
+            .textArea{
+                width: 100%;
+            }
+        }
+    }
+}

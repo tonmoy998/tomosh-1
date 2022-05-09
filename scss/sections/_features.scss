@@ -1,0 +1,48 @@
+.features{
+    background-color: rgb(245, 247, 248);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    .container{
+        .row{
+            .col-md-6{
+                margin-top: 3rem;
+                p,h1{
+                    text-align: center;
+                }
+                .--flogo{
+                    font-size: 5rem;
+                    display: flex;
+                    margin: 0.5rem auto;
+                    .img-fluid{
+                        width: 10rem!important;
+                        height: 7rem;
+                        display: flex;
+                        margin: 1rem auto;
+                    }
+                }
+                .--flogo-img{
+                    width: 5rem;
+                    height: 5rem;
+                }
+                .text{
+                    max-width: 18rem;
+                    width: 99%;
+                    display: flex;
+                    margin: 1rem auto;
+                    color: rgb(65, 62, 62);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .underline{
+        width: 15rem!important; 
+        height: 0.3rem!important;
+     }
+     .underline-box{
+         width: 1.2rem!important;
+         height: 0.3rem!important;
+     }
+}

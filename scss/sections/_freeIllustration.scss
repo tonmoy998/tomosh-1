@@ -1,0 +1,55 @@
+.galary{
+    background-color: rgb(243, 241, 241);
+    margin-top:0rem;
+    padding: 3rem 0;
+    .display-2{
+        color:rgb(49, 47, 47);
+        padding-top: 4rem;
+    }
+    .row{
+        .col-md-4{
+            width: 29.5%;
+            margin: auto auto;
+            height: 20rem;
+            border: 1px solid rgb(107, 106, 106);
+            position: relative;
+            .img-fluid{
+            height: 90%!important;
+            padding: 1rem;
+            display: flex;
+            margin: 0 auto;
+            }
+            p{  
+                font-size: 1.2rem;
+                font-family: monospace,Arial, Helvetica, sans-serif;
+                color: rgb(56, 55, 55);
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+    .--galary{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:700px){
+    .row{
+        display: block;
+        .col-md-4{
+            width: 80%!important;
+            margin:1rem auto!important;
+        }
+    }
+    .galary{
+        .container{
+            .d-flex{
+                margin: 0.4rem 0!important;
+                .col-md-6,.col-md-3{
+                    margin:0.4rem 0 !important;
+                }
+            }
+        }
+    }
+}
